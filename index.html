@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>A Decisão de Sofia</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.png" alt="">
+            <p>Sofia era uma jovem estudante universitária com um estágio importante em uma empresa de comunicação. Após meses de preparação, ela estava finalmente indo para o primeiro dia de trabalho no escritório. O despertador tocou às 7h00, e ela saltou da cama, sentindo a pressão do novo desafio que a aguardava.</p>
+            <button class="btn-proximo" data-proximo="1">Levantar-se rapidamente, tomar um café rápido e sair para pegar o ônibus</button>
+            <button class="btn-proximo" data-proximo="2">Levantar-se com calma, preparar um café mais forte e sair de casa com mais tempo</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Sofia rapidamente se trocou, tomou um café simples e saiu apressada. O ônibus estava na estação, e ela teve sorte de não perder. Dentro do veículo, as pessoas estavam um pouco aglomeradas, mas o trajeto foi tranquilo. Ela começou a checar suas anotações sobre o estágio e a se preparar mentalmente para o dia.Ao chegar à estação de metrô, percebeu que o trem estava lotado, e ela teve que esperar alguns minutos até conseguir entrar.</p>
+            <button class="btn-proximo" data-proximo="3">Esperar pacientemente e seguir viagem para o escritório, mesmo estando atrasada</button>
+          <button class="btn-proximo" data-proximo="4">Descer do metrô e tentar pegar um táxi, mesmo sabendo que isso poderia custar mais tempo</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Sofia decidiu esperar pelo metrô. Embora estivesse ciente de que perderia um pouco mais de tempo, ela pensou que, no fim das contas, o metrô seria a opção mais barata e eficiente. Após 10 minutos, o trem chegou e, apesar da lotação, ela conseguiu uma posição razoável.Ela chegou ao escritório com 15 minutos de atraso. Ao entrar, foi imediatamente chamada para uma reunião com sua supervisora, que parecia impaciente. Sofia tentou se acalmar e explicou que teve um pequeno atraso devido ao transporte público.</p>
+            <button class="btn-proximo" data-proximo="5">Pedir desculpas e explicar de maneira calma a situação</button>
+            <button class="btn-proximo" data-proximo="6">Mencionar que a cidade estava mais caótica do que o esperado, tentando justificar o atraso com mais ênfase</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Sofia optou por pegar um táxi. Ao descer do metrô, ela pediu um carro via aplicativo. A rua estava mais vazia, e, por sorte, o táxi chegou rapidamente. No entanto, o trânsito era imprevisível, e ela viu que o táxi estava demorando mais do que o esperado. O clima de tensão aumentava à medida que o relógio corria.Ela chegou ao escritório já com 20 minutos de atraso. A recepcionista a cumprimentou com um sorriso cordial, mas era evidente que ela sentia a pressão de Sofia chegar tarde.</p>
+            <button class="btn-proximo" data-proximo="7">Subir direto para a sala de reuniões e tentar minimizar o impacto do atraso</button>
+        </div>
+        <div class="passo" id="passo-4">
+            <img src="img/cenario-passo4-voltar-casa.png" alt="imagem voltando para casa e desitindo da aventura">
+            <p>Sofia se deu mais tempo para se arrumar e preparou um café forte, sentindo-se mais tranquila. Ela sabia que o trânsito seria um problema, então decidiu sair um pouco mais cedo. No entanto, ao sair de casa, ela se deparou com um acidente na rua, e o caminho até a estação de metrô acabou sendo mais longo do que o esperado.Quando finalmente chegou à estação, o metrô estava parado devido a um problema técnico.</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Nas igrejas de Olinda, você descobre um mapa antigo escondido atrás de um altar, apontando que a próxima
+                pista está no Amazonas.</p>
+            <button class="btn-proximo" data-proximo="7">Viajar para o Amazonas</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Explorando as praias, você encontra uma caverna escondida, mas ela leva a um beco sem saída.</p>
+            <button class="btn-proximo" data-proximo="8">Voltar e explorar as igrejas</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>No Amazonas, a busca pela cidade perdida se intensifica. Você se depara com um rio bifurcado.</p>
+            <button class="btn-proximo" data-proximo="9">Seguir pelo rio à esquerda</button>
+            <button class="btn-proximo" data-proximo="10">Seguir pelo rio à direita</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>De volta às igrejas, você finalmente encontra o mapa antigo. Agora, para o Amazonas!</p>
+            <button class="btn-proximo" data-proximo="7">Seguir para o Amazonas</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>O rio à esquerda leva você a uma cachoeira escondida com inscrições antigas que revelam a entrada da
+                cidade perdida.</p>
+            <button class="btn-proximo" data-proximo="11">Explorar a cidade perdida</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>O rio à direita termina em uma área pantanosa. Apesar de belas vistas, não há sinais da cidade perdida
+                aqui.</p>
+            <button class="btn-proximo" data-proximo="12">Retornar e tentar o outro rio</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="img/cenario-passo11-cidade-perdida.png" alt="encontrando uma cidade maravilhosa perdida no Amazonas">
+            <p>Dentro da cidade perdida, você descobre tesouros inimagináveis e decide se dedicar a estudar e preservar
+                este lugar</p>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <p>Retornando e escolhendo o rio à esquerda, você finalmente encontra a cachoeira escondida e as inscrições
+                que levam à cidade perdida.</p>
+            <button class="btn-proximo" data-proximo="11">Explorar a cidade perdida</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
